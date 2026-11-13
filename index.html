@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Портфолио начинающего разработчика веб-приложений и облачных сервисов" />
+  <title>IT Портфолио — веб-разработка и облачные технологии</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner"><a href="#home" class="brand">DEV<span class="brand-accent">.</span>PORTFOLIO</a>
+      <nav aria-label="Основная навигация"><a href="#about">Обо мне</a><a href="#skills">Навыки</a><a href="#projects">Проекты</a><a href="#contact">Контакты</a></nav>
+    </div>
+  </header>
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-copy"><span class="eyebrow"><span class="signal"></span> Открыт к учебным проектам</span>
+        <h1>Привет! Я начинающий <span>веб-разработчик.</span></h1>
+        <p>Создаю удобные интерфейсы, изучаю облачные технологии и автоматизацию разработки. Здесь собраны мои направления обучения и учебные проекты.</p>
+        <div class="hero-actions"><a class="primary-button" href="#projects">Посмотреть проекты <span aria-hidden="true">↗</span></a><a class="secondary-button" href="#contact">Связаться</a></div>
+        <div class="hero-stats"><div><strong>03</strong><small>направления</small></div><div><strong>04</strong><small>технологии</small></div><div><strong>CI/CD</strong><small>автоматизация</small></div></div>
+      </div>
+      <div class="hero-panel" aria-label="Декоративная карточка технологий"><div class="panel-top"><span class="dots"><i></i><i></i><i></i></span> project.js <span class="panel-status">● active</span></div><div class="code-body"><span>01&nbsp;&nbsp;<em>const</em> developer = {</span><span>02&nbsp;&nbsp;&nbsp;&nbsp;focus: <b>'Frontend'</b>,</span><span>03&nbsp;&nbsp;&nbsp;&nbsp;tools: [<b>'Git'</b>, <b>'JS'</b>],</span><span>04&nbsp;&nbsp;&nbsp;&nbsp;workflow: <b>'CI/CD'</b>,</span><span>05&nbsp;&nbsp;&nbsp;&nbsp;learning: <em>true</em></span><span>06&nbsp;&nbsp;};</span><span>07</span><span>08&nbsp;&nbsp;<em>deploy</em>(developer);</span></div><div class="panel-footer">✓ Проверка кода пройдена <span>● Main</span></div></div>
+    </section>
+    <section class="content-section muted" id="about"><div class="container"><div class="section-head"><span class="section-tag">01 / Обо мне</span><h2>Разработка как постоянная практика</h2><p>Учусь превращать идеи в понятные и работающие цифровые продукты.</p></div><div class="about-grid"><article class="feature"><div class="feature-icon">⌘</div><h3>Интерфейсы</h3><p>Семантическая HTML-разметка, CSS и адаптация под разные экраны.</p></article><article class="feature"><div class="feature-icon">⚙</div><h3>Автоматизация</h3><p>Проверка качества проекта перед публикацией с помощью GitHub Actions.</p></article><article class="feature"><div class="feature-icon">☁</div><h3>Облачные сервисы</h3><p>Публикация статических сайтов через GitHub Pages.</p></article></div></div></section>
+    <section class="content-section" id="skills"><div class="container"><div class="section-head"><span class="section-tag">02 / Навыки</span><h2>Технологии, которые изучаю</h2></div><div class="skill-row"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Git / GitHub</span><span>GitHub Actions</span><span>GitHub Pages</span></div></div></section>
+    <section class="content-section muted" id="projects"><div class="container"><div class="section-head"><span class="section-tag">03 / Проекты</span><h2>Учебные работы</h2><p>Примеры задач, на которых я закрепляю практические навыки.</p></div><div class="project-grid"><article class="project-card"><div class="project-number">01</div><h3>Сайт-портфолио</h3><p>Адаптивная страница со структурированными разделами и навигацией.</p><span>HTML · CSS</span></article><article class="project-card"><div class="project-number">02</div><h3>JavaScript-интерактивность</h3><p>Функция переключения оформления страницы без перезагрузки.</p><span>JavaScript</span></article><article class="project-card"><div class="project-number">03</div><h3>CI/CD Pipeline</h3><p>Автоматическая проверка исходников и подготовка сайта к публикации.</p><span>GitHub Actions</span></article></div></div></section>
+    <section class="content-section" id="contact"><div class="container contact-area"><div><span class="section-tag">04 / Контакты</span><h2>Есть идея для проекта?</h2><p>Можно начать с простого учебного задания и постепенно расширять функциональность.</p></div><button id="theme-toggle" class="toggle-button" type="button" aria-pressed="false">Включить тёмную тему</button></div></section>
+  </main>
+  <footer><div class="container footer-row"><span>DEV.PORTFOLIO</span><span id="version-label">Версия 1.1 · обновлено после проверки CI/CD</span><span>Учебный проект, 2026</span></div></footer>
+</body>
+</html>
